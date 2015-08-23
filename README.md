@@ -8,21 +8,21 @@ common way:
     with().load().into(),just like picasso
 
     HappyKandy
-    				.with(context)
+    		.with(context)
     				.load(bean.getImage())
-    				.into(draweeView);
+    				        .into(draweeView);
 
 setAspectRatio:     
 
     HappyKandy
-    				.load(bean.getImage())
+    		.load(bean.getImage())
     				.setAspectRatio(1.68f)
-    				.into(draweeView);     
+    				        .into(draweeView);     
 
 setGifTrue:                 
 
     HappyKandy
-    				.load(bean.getImage())
+    		.load(bean.getImage())
     				.setAspectRatio(1.68f)
-    				.setGifTrue()
-    				.into(draweeView);
+    				        .setGifTrue()
+    				            .into(draweeView);
