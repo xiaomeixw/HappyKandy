@@ -1,33 +1,27 @@
 # HappyKandy
-Use Fresco like Picasso or Glide
+Use Fresco like Picasso or Glide(verion0.01/2015-08-23)
+I will keep update it...
 
-ver0.01                            2015-08-23
-
-in first version you will use happykandy like this:
+In first version you will use happykandy like this:
 
 common way:            
+    with().load().into(),just like picasso
 
-with().load().into(),just like picasso
-
-    FrescoManager
+    HappyKandy
     				.with(context)
     				.load(bean.getImage())
     				.into(draweeView);
 
-with setAspectRatio:     
+setAspectRatio:     
 
-setAspectRatio(float)
-
-    FrescoManager
+    HappyKandy
     				.load(bean.getImage())
     				.setAspectRatio(1.68f)
     				.into(draweeView);     
 
-with gif:                 
+setGifTrue:                 
 
-setGifTrue
-
-    FrescoManager
+    HappyKandy
     				.load(bean.getImage())
     				.setAspectRatio(1.68f)
     				.setGifTrue()
