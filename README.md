@@ -43,7 +43,7 @@ android studio Module build.gradle
 
 #Libraries Used
 
-Fresco ：  [http://www.fresco-cn.org/](http://www.fresco-cn.org/)
+Fresco ：  [http://frescolib.org/](http://frescolib.org/)
 
 #License
 
